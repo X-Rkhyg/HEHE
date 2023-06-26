@@ -5,7 +5,7 @@
 > cd DDOS
 > npm i -g pm2
 > pip3 install -r requirements.txt
-> python3 main.py
+> python3 start.py
 > pm2 kill [Stop Program]
 ```
 
