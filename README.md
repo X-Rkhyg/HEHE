@@ -11,7 +11,3 @@
 
 Max 5 Bot
 Thread Bebas
-
-
-Tessss
-tesss
